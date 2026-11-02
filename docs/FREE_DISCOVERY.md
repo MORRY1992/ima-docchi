@@ -23,3 +23,6 @@ Google Search Consoleの所有権確認タグを配置。所有権確認とサ�
 https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=ja
 https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
 https://developers.google.com/search/docs/appearance/structured-data/breadcrumb
+
+実測結果：Search ConsoleのHTMLタグによる所有権確認は完了。sitemap.xmlを送信・再送信したが、確認時点のステータスは「取得できませんでした」。公開URLのHTTP 200、Content-Type application/xml、XMLの22URLは確認。Google側の取得失敗の原因は未特定。インデックス登録は未確認。
+検証：508計算テスト成功、432内部リンク確認、360/390/768/1280pxの12比較操作・共有・復元テスト成功。
