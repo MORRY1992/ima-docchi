@@ -1,10 +1,10 @@
 {
-  "enabled":false,
+  "enabled":true,
   "provider":"Adsterra",
-  "approvalStatus":"not_submitted",
+  "approvalStatus":"approved",
   "format":"social-bar",
-  "scriptUrl":null,
-  "approvedOrigin":null,
-  "policyReviewed":false,
-  "interstitial":{"enabled":false,"requiresUserAction":true,"minimumSecondsBetween":180}
+  "scriptUrl":"https://bauval.org/14/a26a1719e6afceb7c0718ad9392ef966",
+  "approvedOrigin":"https://ima-docchi-2x9.pages.dev",
+  "policyReviewed":true,
+  "networkFormatMayIncludeInterstitial":true
 }

@@ -24,7 +24,7 @@ npm start
 - `src/build.mjs`：18ページ＋404・SEO・サイトマップを生成
 - `src/app.mjs`：入力時の即時更新・予想・ページ共有
 - `content/seasonal.json`：タイトル・概要・入力条件・出典URL・確認日時・掲載期限・確認状態
-- `content/ads.json` / `src/ads.mjs`：広告設定と失敗時処理。初期状態は無効
+- `content/ads.json` / `src/ads.mjs`：広告設定と失敗時処理。公開ドメイン専用の正式コードを設定
 - `tests/`：計算境界値・サイト整合性・ブラウザ検証
 
 入力値はブラウザ内でのみ計算し、Cookie・localStorageへ保存しません。共有URLにも個別入力を含めません。初期値はすべて架空の計算例です。
@@ -35,4 +35,4 @@ npm start
 
 ## 広告
 
-Adsterra新規サイト登録・審査・正式コード発行後に接続します。別サイトのコード、ダミー広告、強制クリック、報酬付き誘導は使いません。Social Barは形式の設定を確認してから導入します。Interstitialの実配信・頻度制御は未実装です。
+Adsterraへのサイト登録は承認され、サイト専用のSocial Barコードを設定しています。別サイトのコード、ダミー広告、強制クリック、報酬付き誘導は使いません。Social Barは形式の設定を確認してから導入します。Social BarにはInterstitialを含む複数の広告形式が含まれる場合があります。表示形式・頻度はAdsterra側で管理されます。
