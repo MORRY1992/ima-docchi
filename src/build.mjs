@@ -3,7 +3,7 @@ import path from 'node:path';
 import {catalog,categories} from './catalog.mjs';
 import {validate} from './calculator.mjs';
 const root=process.cwd(),out=path.join(root,'dist');
-const origin=(process.env.SITE_URL||'https://ima-docchi.pages.dev').replace(/\/$/,'');
+const origin=(process.env.SITE_URL||'https://ima-docchi-2x9.pages.dev').replace(/\/$/,'');
 if(!/^https:\/\/[a-z0-9.-]+$/i.test(origin))throw new Error('SITE_URL must be an HTTPS origin');
 const data=JSON.parse(await fs.readFile('content/seasonal.json','utf8'));
 const ads=JSON.parse(await fs.readFile('content/ads.json','utf8'));

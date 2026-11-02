@@ -15,7 +15,7 @@ npm start
 
 `http://localhost:4173` を開きます。Cloudflare Pagesは `main`、ビルドコマンド `npm run build`、出力 `dist`、プリセット `None`。`dist` はビルドで生成し、直接アップロードにも使えます。Git連携後はソース変更で自動ビルドできます。
 
-想定URLは `https://ima-docchi.pages.dev` です。これはデプロイ完了の証拠ではありません。実際のURLが異なる場合はCloudflareの `SITE_URL` 環境変数に実URLのオリジンを設定して再ビルドしてください。公開状態は `docs/STATUS.md` で確認してください。
+公開URLは `https://ima-docchi-2x9.pages.dev` です。別URLへ移転する場合はCloudflareの `SITE_URL` 環境変数に新しい実URLのオリジンを設定して再ビルドしてください。公開状態は `docs/STATUS.md` で確認してください。
 
 ## 構成
 

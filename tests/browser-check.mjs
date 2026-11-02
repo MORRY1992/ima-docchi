@@ -28,7 +28,7 @@ try{
   assert.equal(requests.some(u=>!u.startsWith(base)),false,'Unexpected external request');
   results.push({width,pages:13,checks:['initial-results','prediction','live-input','invalid-input','reset','no-horizontal-overflow','related-links','no-ad-gaps','no-third-party-request']});await context.close();
  }
- const context=await browser.newContext({permissions:['clipboard-read','clipboard-write']});const page=await context.newPage();await page.goto(base+'/compare/points/');await page.locator('.winner-title').waitFor();await page.getByRole('button',{name:'URLをコピー'}).click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'https://ima-docchi.pages.dev/compare/points/');
+ const context=await browser.newContext({permissions:['clipboard-read','clipboard-write']});const page=await context.newPage();await page.goto(base+'/compare/points/');await page.locator('.winner-title').waitFor();await page.getByRole('button',{name:'URLをコピー'}).click();assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),'https://ima-docchi-2x9.pages.dev/compare/points/');
  await page.getByRole('link',{name:/500円引きと10％OFF/}).click();assert.match(page.url(),/compare\/coupon\//);await page.locator('.winner-title').waitFor();
  // Clipboard denied / native share absent: manual-copy fallback remains available.
  await page.addInitScript(()=>{Object.defineProperty(navigator,'clipboard',{value:{writeText:async()=>{throw new Error('denied');}}});Object.defineProperty(navigator,'share',{value:undefined});});await page.reload();await page.locator('.winner-title').waitFor();await page.getByRole('button',{name:'結果を共有'}).click();assert.equal(await page.locator('#copy-fallback').isVisible(),true);
