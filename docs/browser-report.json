@@ -1,0 +1,76 @@
+{
+  "browser": "153.0.8010.0",
+  "date": "2026-11-02T06:52:11.453Z",
+  "viewportResults": [
+    {
+      "width": 360,
+      "pages": 13,
+      "checks": [
+        "initial-results",
+        "prediction",
+        "live-input",
+        "invalid-input",
+        "reset",
+        "no-horizontal-overflow",
+        "related-links",
+        "no-ad-gaps",
+        "no-third-party-request"
+      ]
+    },
+    {
+      "width": 390,
+      "pages": 13,
+      "checks": [
+        "initial-results",
+        "prediction",
+        "live-input",
+        "invalid-input",
+        "reset",
+        "no-horizontal-overflow",
+        "related-links",
+        "no-ad-gaps",
+        "no-third-party-request"
+      ]
+    },
+    {
+      "width": 768,
+      "pages": 13,
+      "checks": [
+        "initial-results",
+        "prediction",
+        "live-input",
+        "invalid-input",
+        "reset",
+        "no-horizontal-overflow",
+        "related-links",
+        "no-ad-gaps",
+        "no-third-party-request"
+      ]
+    },
+    {
+      "width": 1280,
+      "pages": 13,
+      "checks": [
+        "initial-results",
+        "prediction",
+        "live-input",
+        "invalid-input",
+        "reset",
+        "no-horizontal-overflow",
+        "related-links",
+        "no-ad-gaps",
+        "no-third-party-request"
+      ]
+    }
+  ],
+  "additional": [
+    "clipboard-copy",
+    "share-fallback",
+    "related-navigation",
+    "404",
+    "ad-config-network-failure"
+  ],
+  "javascriptErrors": [],
+  "androidDevice": "not tested",
+  "nativeShareSheet": "not tested"
+}

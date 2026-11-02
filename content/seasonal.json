@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id":"campaign", "title":"割引＋還元、適用順でどっち？", "overview":"還元上限と最低購入額まで入れて、2つのキャンペーンを比較。",
+      "inputConditions":{"price":10000,"discountA":10,"rateA":5,"capA":1000,"minA":0,"baseA":"after","discountB":0,"rateB":20,"capB":1000,"minB":0,"baseB":"after","use":100},
+      "sourceUrls":[], "lastCheckedAt":null, "startsAt":null, "endsAt":null, "confirmationStatus":"example",
+      "editorNote":"架空の計算例。開催中の実在キャンペーンは未掲載。"
+    },
+    {
+      "id":"season", "title":"週末に出発？ 平日にずらす？", "overview":"宿泊・交通・追加費用をまとめて、季節の旅行予算を比べる。",
+      "inputConditions":{"people":2,"nights":1,"transportA":8000,"hotelA":16000,"extraA":0,"transportB":8000,"hotelB":12000,"extraB":2000},
+      "sourceUrls":[], "lastCheckedAt":null, "startsAt":null, "endsAt":null, "confirmationStatus":"example",
+      "editorNote":"架空の旅行費用例。曜日による実際の料金差は示していません。"
+    },
+    {
+      "id":"trending", "title":"気になる家電、買う？ 借りる？", "overview":"使用期間と初期費用を入れて、購入とレンタルを比較。",
+      "inputConditions":{"purchase":48000,"maintenance":0,"resale":0,"rental":4000,"initial":2000,"returnFee":1000,"months":6},
+      "sourceUrls":[], "lastCheckedAt":null, "startsAt":null, "endsAt":null, "confirmationStatus":"example",
+      "editorNote":"架空の家電費用例。人気順位や実在商品の現行料金ではありません。"
+    }
+  ]
+}

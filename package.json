@@ -1,0 +1,6 @@
+{
+  "name": "ima-docchi", "version": "1.0.0", "private": true, "type": "module",
+  "description": "今これ、どっち？ — 旬の損得・答え合わせラボ",
+  "scripts": {"build":"node src/build.mjs", "test":"node --test tests/*.test.mjs", "check":"npm test && npm run build && node tests/site-check.mjs", "start":"node src/serve.mjs"},
+  "engines": {"node": ">=22"}
+}
